@@ -1,0 +1,52 @@
+p.uppercase{
+    text-transform: uppercase;
+}
+
+p.lowercase{
+    text-transform: lowercase;
+}
+
+p.capitalize{
+    text-transform: capitalize;
+}
+
+p.text{
+    text-transform:inherit;
+    text-indent: 50px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-style: italic;
+    line-height: -11px;
+    lighting-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 6px rgb(7, 1, 14);
+    font-family:cursive;
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variant:small-caps;
+    font-weight: 200;
+    
+  }
+
+  p.text1{
+    background-color: burlywood;
+    color: brown;
+    /* width: calc(100% - 300px); */
+    /* width: min(100% - 100px); */
+    width: max(67% - 100px);
+  } 
+
+    
+
+
+
+ol.a{
+    list-style-type:lower-latin;
+    list-style-position:outside;
+}
+ul.b{
+    list-style-type:georgian;
+    list-style-position:inside;
+    font-family:cursive;
+}
