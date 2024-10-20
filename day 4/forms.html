@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+           <!-- fieldset -->
+        <fieldset>
+            <legend>personal info</legend>
+           
+       
+
+        <label for="fname">First name</label>
+        <input type="text" id="fname", name="fname" size="50"><br>
+        <br><label for="Lname">Last name</label>
+        <input type="text" id="Lname", name="Lname" maxlength="6" size="4"><br>
+
+        <!--radio button-->
+        <br><input type="radio" id="html", name="fav_language" value="HTML">
+        <label for="html">HTML</label>
+        <input type="radio" id="css", name="fav_language" value="CSS">
+        <label for="css">CSS</label>
+        <input type="radio" id="javascript, name="fav_language" value="JAVASCRIPT">
+        <label for="javascript">JAVASCRIPT</label><br>
+
+        <!-- checkbox -->
+        <input type="checkbox" id="vehicle1", name="vehicle1" value="bike">
+        <label for="vehicle1">I have a bike</label>
+        <input type="checkbox" id="vehicle2", name="vehicle2" value="Car">
+        <label for="vehicle2">i have a car</label>
+        <input type="checkbox" id="vehicle3,  name="vehicle2" value="Boat">
+        <label for="vehicle3">i have boat</label>
+        <!-- submit -->
+        <br><br><input type="email" name="Aarya" id="aaryagharge@gmail.com">
+         <input type="button" value="submit"><br>
+         <!-- Select -->
+
+         <br><label for="Car">Choose a car</label>
+         <select name="Cars" id="car">
+            <option value="verna">VERNA</option>
+            <option value="maruti suzuki">maruti suzuki</option>
+            <option value="duster">duster</option>
+            <option value="volvo">volvo</option>
+
+         </select>
+
+         <!-- textarea -->
+          <br><br><textarea name="aaryaaa" id="25" cols="77" rows="10"></textarea >
+
+            <!-- button -->
+             <br><br><button type="button" onclick="alert('my name is aarya')">Click me</button>
+       
+                <!-- datalist -->
+                <h1>Select from the List</h1>
+    <label for="fruits">Choose a fruit:</label>
+    <input list="fruit-list" id="fruits" name="fruits" autocomplete="on">
+    
+    <datalist id="fruit-list">
+        <option value="Apple">
+        <option value="Banana">
+        <option value="Cherry">
+        <option value="Date">
+        <option value="Grapes">
+        <option value="Mango">
+        <option value="Orange">
+        <option value="Pineapple">
+    </datalist>
+    <!-- input elements -->
+    <input type="datetime-local" name="aarya" id="aarya">
+    <input type="file" name="file" id="file">
+    <input type="search" name="byeeee" id="bbye">
+    <br><input type="email" name="email" id="email">
+         <input type="password" name="aarya" id="noo">
+         
+         <label for="birthday">Birthday:</label>
+<input type="date" id="birthday" name="birthday" min="2000-01-01" max="2024-12-31">
+
+        </fieldset>   
+    </form>
+</body>
+</html>

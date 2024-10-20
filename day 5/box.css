@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+
+
+.box{
+    max-width: 300px;
+    max-height: 400px; /* Set maximum width for the container */
+    margin: 0 auto;   /* Center the container */
+    padding: 20px;    /* Padding around the content */
+    text-align: left;
+    border: solid;
+    outline-style: dotted;
+    outline-color: brown;
+  
+    background-color: beige;
+
+
+
+   
+}
