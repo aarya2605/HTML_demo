@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Smashers Squad</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+   
+    .bg-teal-800 { background-color: #93cacb; } /* Teal color */
+    .text-teal-800 { color: #006D6F; }
+    .bg-beige-400 { background-color: #F5F5DC; }
+    .bg-beige-200 { background-color: #F2F1E1; } /* Lighter Beige */
+    .hover-bg-teal-600 { background-color: #f5f9f9; } /* Darker Teal for hover */
+    .hover-bg-beige-300 { background-color: #E2D9B8; } 
+    
+    .transition-all { transition: all 0.3s ease-in-out; }
+    
+    .bg-gradient-teal { background: linear-gradient(135deg, #025658, #058a94); }
+  </style>
+</head>
+<body class="bg-gray-100">
+
+  
+  <header class="bg-teal-800 text-white p-6 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-extrabold">Smashers Squad</h1>
+      <nav class="space-x-6">
+        <a href="#" class="text-xl hover:text-beige-400 transition-all">Home</a>
+        <a href="#shop" class="text-xl hover:text-beige-400 transition-all">Shop</a>
+        <a href="#contact" class="text-xl hover:text-beige-400 transition-all">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="bg-gradient-teal text-white p-16 text-center mt-16 rounded-lg shadow-lg">
+    <h2 class="text-5xl font-bold mb-6">Welcome to Smashers Squad               </h2>
+    <p class="text-xl mb-6">Get premium badminton gear and coaching today!</p>
+    <a href="#shop" class="bg-beige-400 px-10 py-4 rounded-lg text-teal-800 font-semibold hover:bg-beige-300 transition-all">Shop Now</a>
+  </section>
+
+
+  <section id="shop" class="py-16 text-center bg-beige-200">
+    <h2 class="text-3xl font-semibold mb-12 text-teal-800">Our Premium Products</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-6">
+     
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition-all">
+        <img src="shopping.webp" alt="Badminton Racket" class="w-full h-48 object-cover transition-all">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-teal-800 mb-2">Badminton Racket</h3>
+          <span class="text-teal-800 font-semibold">Rs.4999</span>
+          <p class="text-gray-600 mb-4">High-quality racket for all levels of play.</p>
+          <button class="w-full py-3 bg-teal-800 text-white rounded-lg shadow-md hover:bg-teal-600 transition-all">Add to Cart</button>
+        </div>
+      </div>
+      
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition-all">
+        <img src="shuttle.webp" alt="Shuttlecock" class="w-full h-48 object-cover transition-all">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-teal-800 mb-2">Shuttlecock</h3>
+          <span class="text-teal-800 font-semibold">Rs.1299</span>
+          <p class="text-gray-600 mb-4">High-performance shuttlecock for precision and durability.</p>
+          <button class="w-full py-3 bg-teal-800 text-white rounded-lg shadow-md hover:bg-teal-600 transition-all">Add to Cart</button>
+        </div>
+      </div>
+     
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition-all">
+        <img src="shoes.jpg" alt="Badminton Shoes" class="w-full h-48 object-cover transition-all">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-teal-800 mb-2">Badminton Shoes</h3>
+          <span class="text-teal-800 font-semibold">Rs.7999</span>
+          <p class="text-gray-600 mb-4">Comfortable and durable shoes made for the fast pace of badminton.</p>
+          <button class="w-full py-3 bg-teal-800 text-white rounded-lg shadow-md hover:bg-teal-600 transition-all">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contact" class="py-16 bg-beige-400 text-center">
+    <h2 class="text-3xl font-semibold mb-6 text-teal-800">Contact Us</h2>
+    <p class="text-lg mb-6 text-teal-800">We would love to hear from you!</p>
+    <form action="#" method="POST" class="max-w-lg mx-auto space-y-6">
+      <input type="text" name="name" placeholder="Your Name" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-800 transition-all">
+      <input type="email" name="email" placeholder="Your Email" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-800 transition-all">
+      <textarea name="message" placeholder="Your Message" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-800 transition-all"></textarea>
+      <button type="submit" class="w-full py-3 bg-teal-800 text-white rounded-lg hover:bg-teal-600 transition-all">Send Message</button>
+    </form>
+  </section>
+
+ 
+  <footer class="bg-teal-800 text-white text-center py-6">
+    <p>&copy; 2024 Badminton Pro. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
